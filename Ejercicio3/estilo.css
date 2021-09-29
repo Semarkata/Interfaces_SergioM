@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+}
+
+#negritaCursiva{
+    font-weight: bold;
+    font-family: cursive;
+    text-indent: 2em;
+}
+
+#consejo{
+    background-color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#textolinea{
+    text-transform: capitalize;
+    text-decoration: underline;
+    background-color: rgba(252, 181, 173,10);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    background-color: rgb(167, 121, 121);
+    color: white;
+}
+
+.clase{
+    color: rgb(139, 45, 139);
+}
+
+#idparaestilo{
+    background-color: rgb(113, 74, 151);
+    color: white;
+    font-family: monospace;
+}
+

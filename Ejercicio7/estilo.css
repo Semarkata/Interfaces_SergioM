@@ -1,0 +1,35 @@
+.bodyAC{
+    background-image: url("madrid.jpg");
+}
+
+.bodyB{
+    background-image: url("madrid.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bodyC{
+    background-image: url("madrid.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+.divAB{
+    background-origin: border-box;
+    background-position: top right;
+    overflow: scroll;
+   
+    
+}
+
+.divC{
+    background-origin: border-box;
+    background-position: top right;
+    
+}
+.sombraimg{
+    box-shadow: 10px 10px 10px #000000
+}
+
+

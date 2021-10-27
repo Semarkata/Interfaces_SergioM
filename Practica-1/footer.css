@@ -1,0 +1,33 @@
+#footer{
+    background: linear-gradient(90deg, rgba(159,86,233,1) 0%, rgba(39,126,255,1) 100%);     
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#texto{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+}
+#images img{
+    height: 35px;
+    filter: invert(100%);
+}
+
+#images img a:nth-child(1){
+    height: 200px;
+    filter: invert(100%);
+}

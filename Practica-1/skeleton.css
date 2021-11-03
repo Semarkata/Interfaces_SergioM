@@ -1,0 +1,16 @@
+/* Define la estructura de la página  */
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+}

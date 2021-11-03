@@ -1,0 +1,38 @@
+/* Define el pie de página */
+
+#footer {
+    background: linear-gradient(90deg, rgba(159, 86, 233, 1) 0%, rgba(39, 126, 255, 1) 100%);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#texto {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#images img {
+    height: 35px;
+    filter: invert(100%);
+}
+
+
+/* Esto era porque la imagen era un poco mas pequeña, y lo hice para que las 3 fuesen igual de tamaño */
+#images a:nth-child(1) img {
+    height: 42px;
+    filter: invert(100%);
+}

@@ -1,0 +1,45 @@
+/* Define la cabecera de la página */
+
+#header {
+    background: linear-gradient(90deg, rgba(159, 86, 233, 1) 0%, rgba(39, 126, 255, 1) 100%);
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header div:first-child {
+    margin-left: 3%;
+    margin-top: 0;
+
+}
+
+#header img {
+    height: 50px;
+    filter: invert(100%);
+    margin: 0;
+}
+
+#header>div:first-child {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+#divTextHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+    gap: 5rem;
+}
+
+.textHeader {
+    display: flex;
+    color: white;
+}
+
+.textHeader:hover {
+    color: rgb(95, 2, 187);
+}

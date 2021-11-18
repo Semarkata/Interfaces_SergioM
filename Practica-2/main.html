@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stag & Onion</title>
+    <link href="./styles/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="./styles/body.css" rel="stylesheet" type="text/css">
+    <link href="./styles/header.css" rel="stylesheet" type="text/css">
+    <link href="./styles/footer.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="header">
+            <div class="content">
+                <div class="img">
+                        <img src="./imgs/logo.png">
+                </div>
+                <div class="texts">
+                    <div class="contentLetter">
+                        ¿Quienes somos?
+                    </div>
+                    <div class="contentLetter">
+                        Portfolio                    
+                    </div>
+                    <div class="contentLetter">
+                        Contacto                    
+                    </div>
+                    <div class="contentLetter">
+                        Blog          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="body">
+            <div id="textMenu">
+                <div id="tittle">Portfolio</div>
+               <div id="texts">
+                <!-- Del menú se tendrian que desplegar las opciones que están omitidas
+                Modelo de: https://codepen.io/ainalem/pen/wvKOEMV -->
+
+                        <div class="internaltext">Web</div> 
+                        <div class="internaltext">Editorial</div>
+                        <div class="internaltext">Carteleria</div>
+                        <div class="internaltext"> Imagen Corporativa</div>  
+                        <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                            <svg width="25px" height="25px" viewBox="0 0 100 100">
+                              <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                              <path class="line line2" d="M 20,50 H 80" />
+                              <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                            </svg>
+                          </button>
+                </div> 
+                
+            </div>
+            <div id="boxes">
+                <div class="box">
+                    <img src="./imgs/medalla.jpeg">
+                    <div class="tittle">Cartas Coleccionables</div>
+                    <div class="texto">Cartas Coleccionables para la copa de españa de Quadditch</div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/tcpmodel.jpeg">
+                    <div class="tittle">Modelo TCP/IP</div>
+                    <div class="texto">Dentro del modelo TCP/IP existen cuatro niveles o capas.</div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/violin.jpeg">
+                    <div class="tittle">Concierto de Violin</div>
+                    <div class="texto">Proximamente disponible en la página Web.</div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/grey.jpeg">
+                    <div class="tittle">Lorem Impus</div>
+                    <div class="texto">Página web para gabinete de psicologia:<br> Instituto de terapias psicologicas
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/grey.jpeg">
+                    <div class="tittle">Lorem Impus</div>
+                    <div class="texto">Página web para gabinete de psicologia:<br> Instituto de terapias psicologicas
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/grey.jpeg">
+                    <div class="tittle">Lorem Impus</div>
+                    <div class="texto">Página web para gabinete de psicologia:<br> Instituto de terapias psicologicas
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/grey.jpeg">
+                    <div class="tittle">Lorem Impus</div>
+                    <div class="texto">Página web para gabinete de psicologia:<br> Instituto de terapias psicologicas
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./imgs/grey.jpeg">
+                    <div class="tittle">Lorem Impus</div>
+                    <div class="texto">Página web para gabinete de psicologia:<br> Instituto de terapias psicologicas
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="content">
+                <div class="letterContent">
+                   <div class="text">Legal </div>
+                   <div class="text">Copyright &copy;</div>
+                   <div class="text">Mapa de navegacion </div>
+                </div>
+                <div class="logo">
+                    <a id="linkedin" href="https://www.linkedin.com/"><img src="./imgs/linkedin.png"></a> 
+                    <a href="https://twitter.com"><img src="./imgs/twitter.png"></a>
+                    <a href="https://www.facebook.com/"><img src="imgs/facebook.png"></a>
+                </div>
+                <div class="logo">
+                    
+                </div>
+                <div class="logo">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

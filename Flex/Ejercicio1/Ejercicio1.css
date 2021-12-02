@@ -1,0 +1,29 @@
+#contenedorBien{
+    background-color:cyan;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#contenedorBien div,#contenedorReverse div{
+    background-color:tomato;
+    width: 15%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#contenedorReverse{
+    margin-top: 50px;
+    background-color:cyan;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+

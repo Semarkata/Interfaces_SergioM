@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .move{
+		animation-name: move;
+        position: absolute;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;				
+		animation-direction: alternate;
+        }
+
+        @keyframes move {
+		0% {left: 0; top:0;}
+        25% {left: calc(100% - 201px); top: calc(90% - 105px);}	
+        30% {left: calc(90% - 201px); top: calc(100% - 105px);}
+        50%{left: 40%; top: 0;}
+        75% {left: 20%; top: calc(100% - 105px)}			
+        85% {left: 0; top: 50%}
+        100% {left: 400px; top: 0;}	
+                    
+        }
+        
+img{
+    height: 100px;
+}
+
+    </style>
+</head>
+<body>
+    
+<img class="move" src="img/dvd.png">
+
+
+</body>
+</html>

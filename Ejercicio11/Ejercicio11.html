@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css" media="screen">
+		#container {
+			border: 1px solid black;
+			width: 40rem;
+			height: 29rem;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 1em;
+		}
+		.box {
+			width: 6rem;
+			height: 6rem;
+			background-color: red;
+			font-size: 1.5rem;
+			position: absolute;
+			margin: 1rem;
+			transition: 4s all 0.5s ease-in-out;
+			left: 0px;
+		}
+		div.box:hover {
+			width: 3rem;
+			height: 3rem;
+			background-color: blue;
+			color: yellow;
+			font-size: 1rem;			
+			transform: rotate(270deg);				
+		}
+		
+		div#box1 { 
+			top: 0rem;			
+		}
+		div#box2 {
+			top: 7rem;
+		}
+		div#box3 {
+			top: 14rem;
+		}
+		div#box4 {
+			top: 21rem;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="box1" class="box">Caja 1</div>
+		<div id="box2" class="box">Caja 2</div>
+		<div id="box3" class="box">Caja 3</div>
+		<div id="box4" class="box">Caja 4</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeCenterController">
+   <children>
+         <ImageView fitHeight="128.0" fitWidth="288.0" pickOnBounds="true" preserveRatio="true">
+       <image>
+           <Image url="@imgs/warehouse.jpg" />
+       </image>
+   </ImageView>
+       <Text fx:id="tituloText" fill="#263f73" layoutX="347.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quienes somos?" wrappingWidth="190.24072265625" />
+       <Text fx:id="textoPresentacion" fill="#263f73" layoutX="20.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somos una de las pricipales agencias de envio del pais, mandamos tanto nacional como a multinacional" wrappingWidth="258.13330078125" />
+       <ImageView fitHeight="210.0" fitWidth="235.0" layoutX="350.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@imgs/europa.jpg" />
+           </image>
+       </ImageView>
+       <Text fx:id="textoDinero" fill="#263f73" layoutX="60.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Los precios mas bajos garantizados!" wrappingWidth="143.99609375" />
+       <ImageView fitHeight="105.0" fitWidth="105.0" layoutX="80.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@imgs/moneda.png" />
+           </image>
+       </ImageView>
+       <ImageView fx:id="questionImg" fitHeight="59.0" fitWidth="61.0" layoutX="530.0" layoutY="356.0" onMouseClicked="#questionOnClick" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@imgs/question.png" />
+           </image>
+       </ImageView>
+      </children>
+</AnchorPane>

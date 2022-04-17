@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuestionController">
+   <children>
+      <Text fx:id="envioText" fill="#263f73" layoutX="39.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En el boton de nuevo envio, podras crear un nuevo envio completando el formulario." wrappingWidth="186.732421875" />
+      <Text fx:id="misEnviosText" fill="#263f73" layoutX="324.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En el boton de &quot;ver mis envios&quot;, podras ver todos los envios que has hecho, junto a sus datos, como la direccion de envio, o las propiedades del paquete." wrappingWidth="252.52099609375" />
+      <Text fx:id="perfilText" fill="#263f73" layoutX="26.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accediendo a tu perfil, podras ver o editar las propiedades del mismo, y se actualizara en la base de datos." wrappingWidth="297.6044921875" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="324.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/nuevoEnvio.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/misEnvios.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="176.0" layoutX="380.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/perfil.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

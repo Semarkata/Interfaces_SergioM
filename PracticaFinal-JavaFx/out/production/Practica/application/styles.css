@@ -1,0 +1,114 @@
+.background{
+    -fx-background-color: #263f73;
+}
+
+#titulos{
+
+    /*Desde aqui no se porque no me esta cambiando el color del texto, le he aplicado el color desde SceneBuilder*/
+    -fx-text-fill: #F7F4F4;
+    -fx-font-size: 28px;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#link{
+    -fx-font-size: 10;
+}
+
+.btn{
+    -fx-background-color: #263f73;
+    -fx-text-fill: #F7F4F4;
+}
+
+.textoError{
+    -fx-text-fill: red;
+}
+
+#textoConfirm{
+    -fx-text-fill: green;
+}
+
+#bannerImages{
+    -fx-spacing: 35;
+    -fx-alignment: center;
+}
+
+#textoBanner{
+    -fx-font-size: 18;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+}
+
+.textoEnvios{
+
+    -fx-font-size: 14;
+    -fx-text-fill: #263f73;
+    -fx-text-alignment: center;
+}
+
+#bannerBienvenida{
+
+    -fx-font-size: 32;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+
+}
+
+
+#tituloMisEnvios{
+    -fx-font-size: 32;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+    -fx-font-weight: bold;
+
+
+}
+
+#textCambioPassword{
+    -fx-text-alignment: center;
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+}
+
+#textoTitulo{
+
+    -fx-font-size: 42px;
+    -fx-text-alignment: center;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+
+}
+
+#descripcionTexto{
+
+    -fx-font-size: 18px;
+
+    -fx-text-alignment: center;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+
+}
+
+#dineroTexto{
+    -fx-font-size: 16px;
+
+    -fx-text-alignment: center;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+}
+
+
+.letrasAyuda{
+    -fx-font-size: 16px;
+
+    -fx-text-alignment: center;
+
+    /*No se porque no se cambia el color del texto desde el css*/
+    -fx-text-fill: #263f73;
+}

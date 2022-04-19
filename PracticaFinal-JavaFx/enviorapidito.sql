@@ -17,15 +17,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `enviorapidito`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `envio`
---
 
 CREATE TABLE `envio` (
   `envioId` int NOT NULL,
@@ -36,13 +27,7 @@ CREATE TABLE `envio` (
   `cp` varchar(45) DEFAULT NULL,
   `direccion` varchar(45) DEFAULT NULL,
   `tipoEnvio` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `paquete`
---
+);
 
 CREATE TABLE `paquete` (
   `paqueteId` int NOT NULL,
@@ -53,13 +38,7 @@ CREATE TABLE `paquete` (
   `ancho` varchar(45) DEFAULT NULL,
   `alto` varchar(45) DEFAULT NULL,
   `unidadMedida` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `usuarios`
---
+);
 
 CREATE TABLE `usuarios` (
   `userId` int NOT NULL,
@@ -67,51 +46,26 @@ CREATE TABLE `usuarios` (
   `apellido` varchar(45) NOT NULL,
   `username` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `envio`
---
 ALTER TABLE `envio`
   ADD PRIMARY KEY (`envioId`);
 
---
--- Indexes for table `paquete`
---
 ALTER TABLE `paquete`
   ADD PRIMARY KEY (`paqueteId`);
 
---
--- Indexes for table `usuarios`
---
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`userId`),
   ADD UNIQUE KEY `userId_UNIQUE` (`userId`),
   ADD UNIQUE KEY `username_UNIQUE` (`username`);
 
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `envio`
---
 ALTER TABLE `envio`
   MODIFY `envioId` int NOT NULL AUTO_INCREMENT;
 
---
--- AUTO_INCREMENT for table `paquete`
---
 ALTER TABLE `paquete`
   MODIFY `paqueteId` int NOT NULL AUTO_INCREMENT;
 
---
--- AUTO_INCREMENT for table `usuarios`
---
 ALTER TABLE `usuarios`
   MODIFY `userId` int NOT NULL AUTO_INCREMENT;
 COMMIT;
